@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoF.FacadePattern", "GoF.FacadePattern\GoF.FacadePattern.csproj", "{AC6D3074-7018-4535-868E-7BCC825E22CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.Models", "GoF.Models\GoF.Models.csproj", "{046E815D-2612-4E59-B833-3D4185CA8F96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC6D3074-7018-4535-868E-7BCC825E22CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6D3074-7018-4535-868E-7BCC825E22CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6D3074-7018-4535-868E-7BCC825E22CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6D3074-7018-4535-868E-7BCC825E22CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{046E815D-2612-4E59-B833-3D4185CA8F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{046E815D-2612-4E59-B833-3D4185CA8F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{046E815D-2612-4E59-B833-3D4185CA8F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{046E815D-2612-4E59-B833-3D4185CA8F96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBA49419-F2D9-4E2B-B15E-C4ACF8695BC9}
+	EndGlobalSection
+EndGlobal
