@@ -6,13 +6,13 @@ using Moq;
 
 namespace GoF.Tests
 {
-    public class ProductsFacadeTests
+    public class FacadeTests
     {
         private readonly Mock<IProductRepository> _productRepositoryMock;
         private readonly Mock<IExternalProductService> _externalProductServiceMock;
         private readonly ProductsFacade _productsFacade;
 
-        public ProductsFacadeTests()
+        public FacadeTests()
         {
             _productRepositoryMock = new Mock<IProductRepository>();
             _externalProductServiceMock = new Mock<IExternalProductService>();
