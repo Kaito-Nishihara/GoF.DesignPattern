@@ -1,6 +1,0 @@
-@GoF.FacadePattern_HostAddress = http://localhost:5116
-
-GET {{GoF.FacadePattern_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
